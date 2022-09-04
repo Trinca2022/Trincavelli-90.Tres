@@ -136,6 +136,8 @@ form {
   color: white;
 }
 
+#comentario {width: 100%;}
+
 #enviar-contacto {
   margin: 5px 0;
   font-size: 1.1rem;
@@ -232,6 +234,7 @@ ul {
 }
 
 header {
+  width: 728px;
   padding: 0 10px;
   justify-content: space-around;
 }
@@ -240,6 +243,30 @@ ul li {
 margin: 5px  0px;
 }
 
- 
+form {
+    width: 80%;
+    height: 60%;
+    justify-content: space-evenly;
+    padding-bottom: 20%;
+}
+  
+input {
+    margin-bottom: 20px;
+}
+
+form h1 {margin-bottom: 10%;
+font-size: 50px;}
+
+form label {font-size: 35px;}
+
+#enviar-contacto {
+    font-size: 2.1rem; 
+}
+
+.boton-enviar {margin-top: 25px;
+}
+
+
+
 }
   

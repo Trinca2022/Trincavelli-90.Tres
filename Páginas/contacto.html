@@ -11,7 +11,8 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
-<body>
+
+<body class="body-container">
 <!--Comienza cabecera-->
 <header>
   <img class="logo-superior" src="../Imágenes/Logo FM superior.jpg">
@@ -36,10 +37,11 @@
       <label for="mail">Mail</label>
       <input id="mail" type="email" placeholder="ejemplo@gmail.com"/>
       <label for="comentario">Comentario</label>
-      <textarea id="comentario" placeholder="Ingrese mensaje" rows="5" cols="30"></textarea>
+      <div>
+      <textarea id="comentario" placeholder="Ingrese mensaje" rows="5" cols="53"></textarea></div>
       <div class="boton-enviar"> 
         <input id="enviar-contacto" type="submit" value="Enviar"/>
-      </div>
+      </div> 
     </form>
 </main> 
 <!--Termina cuerpo/comienza pie-->
