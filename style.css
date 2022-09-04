@@ -7,7 +7,7 @@ padding: 0;}
 .body-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 10fr 1fr;
+  grid-template-rows: 2fr 10fr 1fr;
   grid-template-areas: 
   "header"
   "main"
@@ -21,7 +21,8 @@ padding: 0;}
   position: relative;}
 
 header {
-  padding: 5px;}
+  padding: 5px;
+}
 
 header, ul {
   display: flex;
@@ -211,26 +212,27 @@ main h1 {
 
 @media screen and (max-width: 480px){
 
-  .body-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 4fr 20fr 1fr;
-   }  
+/*BODY GENERAL*/
+
+.body-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4fr 20fr 1fr;
+  }  
  
+/*HEADER GENERAL*/
 
 .logo-superior {
   width: 300px;
   height: auto;
-  
 }
-
 
 ul {
   flex-direction: column;
   align-items: flex-end;
   margin: 0 0 0 0px;
   padding-left: 0px;
-  width: 20vh
+  width: 20vh;
 }
 
 header {
@@ -242,6 +244,8 @@ header {
 ul li {
 margin: 5px  0px;
 }
+
+/*CONTACTO RESPONSIVE*/
 
 form {
     width: 80%;
@@ -265,6 +269,17 @@ form label {font-size: 35px;}
 
 .boton-enviar {margin-top: 25px;
 }
+
+/*LIVE-PLAYLISTS RESPONSIVE*/
+
+iframe {
+  padding: 2% 0;
+}
+
+main h1 {margin-bottom: 2%;
+  font-size: 50px;}
+
+
 
 
 
