@@ -206,6 +206,7 @@ main h1 {
  src: url(./Fuentes/TYPEMATES\ -\ COMSPOT.OTF);
 }
 
+
 @media screen and (max-width: 480px){
 
   .body-container {
@@ -214,9 +215,6 @@ main h1 {
     grid-template-rows: 4fr 20fr 1fr;
    }  
  
-header {
-  margin-left: 8%;
-}
 
 .logo-superior {
   width: 300px;
@@ -224,10 +222,18 @@ header {
   
 }
 
+
 ul {
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   margin: 0 0 0 0px;
+  padding-left: 0px;
+  width: 20vh
+}
+
+header {
+  padding: 0 10px;
+  justify-content: space-around;
 }
 
 ul li {
