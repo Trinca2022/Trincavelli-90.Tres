@@ -144,11 +144,21 @@ form {
   padding: 5px 15px;
   border: 1px solid;
   border-radius: 5px;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
 }
 
 input {
   margin-bottom: 10px;
 }
+
+
+#enviar-contacto:hover {
+  text-decoration: none;
+  color: #29b972;
+  background-color: #3A3A3A;
+}
+
 
 
 /*LIVE-PLAYLISTS*/
