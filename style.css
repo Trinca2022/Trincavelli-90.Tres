@@ -131,8 +131,10 @@ audio {
 form {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  justify-content: center;
+  width: 60%;
   color: white;
+  margin-left: 20%;
 }
 
 #comentario {width: 100%;}

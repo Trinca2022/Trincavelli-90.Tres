@@ -13,24 +13,54 @@
    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 
-<body class="body-container">
+<body class="container-fluid body-container">
+  <section class="row">
+  <section class="col">
 <!--Comienza cabecera-->
 <header>
   <img class="logo-superior" src="../Imágenes/Logo FM superior.jpg">
-  <nav>
-    <ul>
-        <li><a href="../index.html">INICIO</a></li>
-        <li><a href="./live.html">LIVE!</a></li>
-        <li><a href="./playlists.html">PLAYLISTS</a></li>
-        <li><a href="./quienessomos.html">QUIÉNES SOMOS</a></li>
-        <li><a href="./contacto.html">CONTACTO</a></li>
-    </ul>
-  </nav>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid container-nav">
+      <button class="navbar-toggler boton-hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./live.html">LIVE!</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./playlists.html">PLAYLISTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./quienessomos.html">QUIÉNES SOMOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
 
 </header>
 <!--Termina cabecera/comienza cuerpo-->
-<main class="main-paginas">
+<main class="main-paginas container-fluid">
+
+  <section class="main-quienes container-fluid">
+
+    <section class="row">
+    <section class="img1 col-md-1 col-lg-2">
+            <img class="img-izquierda" src="../Imágenes/radio-close-up.jpg">
+    
+    </section>
+
+    <section class="col-sm-12 col-md-10 col-lg-8">
     <form>
+      
       <h1>CONTACTO</h1>
       <label class="inline" for="nombre">Nombre y apellido</label>
       <input id="nombre" type="text"/>    
@@ -45,10 +75,17 @@
         <input id="enviar-contacto" type="submit" value="Enviar"/>
       </div> 
     </form>
+    </section>
+
+    <section class="img2 col-md-1 col-lg-2">
+      <img class="img-derecha" src="../Imágenes/radio-close-up.jpg">
+</section>
+</section>
+</section>  
+
 </main> 
 <!--Termina cuerpo/comienza pie-->
 <footer>
-<hr>
   <section>
     <p class="derechos">
       © 2022 LT 35 RADIO MON PERGAMINO S.A., todos los derechos reservados.
@@ -56,9 +93,11 @@
     <p class="linkfooter"> 
       <a href="http://lt35radiomon.com.ar" target="_blank">lt35radiomon.com.ar</a></p>
    </section>
-  <section>
-      <audio class="wptpa_audio" src="http://streaming2.locucionar.com:8230/stream"></audio>
-   </section>
+  
 </footer>
+</section>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
