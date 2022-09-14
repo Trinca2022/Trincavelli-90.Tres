@@ -244,9 +244,9 @@ main h1 {
  src: url(./Fuentes/TYPEMATES\ -\ COMSPOT.OTF);
 }
 
-/*
 
-@media screen and (max-width: 480px){
+
+@media screen and (max-width: 768px){
 
 /*BODY GENERAL
 
@@ -338,8 +338,10 @@ display: flex;
 justify-content: center;
 margin-top: -58%;
 }
-
-.img1 {visibility: hidden;}
+*/
+.img1 {display: none;}
+.img2 {display: flex;}
+.img-derecha {height: 100%;}
 
 }
 
