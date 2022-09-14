@@ -128,13 +128,16 @@ audio {
   justify-content: center;
   }
 
+.form-container {display: flex;
+justify-content: center;}
+
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60%;
+  width: 80%;
   color: white;
-  margin-left: 20%;
+  
 }
 
 #comentario {width: 100%;}
@@ -342,10 +345,12 @@ margin-top: -58%;
 }
 */
 .img1 {display: none;}
-.img2 {display: flex;}
-.img-derecha {height: 100%;}
+.img2 {display: flex;
+background-color: #29b972;
+height: 150px;}
+.img-derecha {object-position: 100% 0%;}
+.img-derecha-contacto {object-position: 100% 40%;}
 
 }
-
 
   
