@@ -1,0 +1,25 @@
+* {
+    font-family:
+        Comspot;
+    margin: 0;
+    padding: 0;
+}
+
+.body-container {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    .row-body {
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+
+        .col-body {
+            margin-right: 0;
+            margin-left: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
