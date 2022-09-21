@@ -76,8 +76,8 @@ form {
 #enviar-contacto {
     margin: 5px 0;
     font-size: 1.1rem;
-    color: #3A3A3A;
-    background-color: #29b972;
+    color: map-get($colores, grisPrincipal);
+    background-color: map-get($colores, verdePrincipal);
     padding: 5px 15px;
     border: 1px solid;
     border-radius: 5px;
@@ -91,8 +91,8 @@ input {
 
 #enviar-contacto:hover {
     text-decoration: none;
-    color: #29b972;
-    background-color: #3A3A3A;
+    color: map-get($colores, verdePrincipal);
+    background-color: map-get($colores, grisPrincipal);
 }
 
 
@@ -200,7 +200,6 @@ iframe {
 
     .img2 {
         display: flex;
-        background-color: #29b972;
         height: 150px;
     }
 

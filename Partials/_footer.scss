@@ -5,7 +5,7 @@
 }
 
 .linkfooter a {
-    color: #29b972;
+    color: map-get($colores, verdePrincipal);
 }
 
 .derechos,

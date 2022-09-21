@@ -11,7 +11,7 @@ header {
 }
 
 .boton-hamburguesa {
-    background-color: #29b972;
+    background-color: map-get($colores, verdePrincipal);
 }
 
 /*APLICO NESTING Y SELECTOR &*/
@@ -32,20 +32,18 @@ header {
 
             a {
                 text-decoration: none;
-                color: #3A3A3A;
+                color: map-get($colores, grisPrincipal);
                 padding: 2px 10px !important;
                 border: 1px solid;
                 border-radius: 5px;
-                background-color: map-get($colores, grisPrincipal);
+                background-color: map-get($colores, verdePrincipal);
                 transition: all 0.5s ease-out !important;
                 cursor: pointer !important;
 
                 &:hover {
                     text-decoration: none;
-                    color: #29b972 !important;
-                    border: 1px solid;
-                    border-radius: 5px;
-                    background-color: #3A3A3A;
+                    color: map-get($colores, verdePrincipal) !important;
+                    background-color: map-get($colores, grisPrincipal);
                 }
             }
         }
