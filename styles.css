@@ -168,10 +168,6 @@ input {
 }
 
 /*QUIÉNES SOMOS*/
-.main-quienes {
-  padding: 0;
-}
-
 .img1,
 .img2 {
   padding: 0;
@@ -229,14 +225,23 @@ input {
   padding-bottom: 0%;
 }
 
+.main-quienes-contacto {
+  padding: 0;
+}
+
 main h1 {
   color: white;
 }
 
 /*LIVE - PLAYLISTS*/
+.titulo-iframe {
+  color: white;
+  margin: 0%;
+}
+
 iframe {
   width: 100%;
-  height: 100%;
+  height: 90%;
   padding: 3.5% 0%;
   margin-bottom: 15%;
 }
