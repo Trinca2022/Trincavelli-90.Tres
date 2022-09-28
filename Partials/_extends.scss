@@ -1,0 +1,8 @@
+%botonDefault {
+    color: map-get($colores, grisPrincipal);
+    background-color: map-get($colores, verdePrincipal);
+    border: 1px solid;
+    border-radius: 5px;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
