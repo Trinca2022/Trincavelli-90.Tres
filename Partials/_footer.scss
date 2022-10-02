@@ -1,9 +1,6 @@
 /*FOOTER*/
 
 
-.linkfooter {
-    margin-top: -1px;
-}
 
 .linkfooter a {
     color: map-get($colores, verdePrincipal);
@@ -15,6 +12,24 @@
     margin: 0;
 }
 
+
 .derechos {
-    padding-top: 0.5%;
+    padding-top: 0%;
+}
+
+.footer-der,
+.footer-izq,
+.footer-med {
+    padding: 0.5% 0 0 0;
+
+}
+
+.logos-redes {
+    width: 20px;
+    margin: 0 4.5px;
+    transition: all 0.5s ease-out;
+
+    &:hover {
+        width: 25px
+    }
 }
