@@ -131,7 +131,7 @@ form h1 {
 
 .boton-enviar,
 form h1 {
-  margin-bottom: 10%;
+  padding-bottom: 9%;
 }
 
 .form-container {
@@ -300,11 +300,16 @@ iframe {
   padding: 0.5% 0 0 0;
 }
 
+.footer-der a {
+  margin: 2%;
+}
+
 .logos-redes {
-  width: 20px;
-  margin: 0 4.5px;
+  width: 9%;
+  height: auto;
   transition: all 0.5s ease-out;
 }
 .logos-redes:hover {
-  width: 25px;
+  width: 12%;
+  height: auto;
 }/*# sourceMappingURL=styles.css.map */

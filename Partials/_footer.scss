@@ -24,12 +24,20 @@
 
 }
 
+.footer-der a {
+    margin: 2%;
+
+}
+
 .logos-redes {
-    width: 20px;
-    margin: 0 4.5px;
+    width: 9%;
+    height: auto;
     transition: all 0.5s ease-out;
 
+
     &:hover {
-        width: 25px
+        width: 12%;
+        height: auto;
+
     }
 }
