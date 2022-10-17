@@ -5,7 +5,8 @@
     padding: 0;
 }
 
-.body-container {
+.body-container-index,
+.body-container-paginas {
     margin: 0 !important;
     padding: 0 !important;
 
@@ -25,4 +26,12 @@
 
         }
     }
+}
+
+@media screen and (max-width: 991px) {
+
+    .body-container-paginas {
+        padding-top: 3.5rem !important;
+    }
+
 }

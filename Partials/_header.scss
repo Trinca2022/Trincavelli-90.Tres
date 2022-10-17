@@ -6,6 +6,7 @@ header {
     align-items: center;
 }
 
+
 .container-nav {
     padding-right: 6px;
 
@@ -84,4 +85,14 @@ header {
     li {
         margin-top: 2%;
     }
+
+    .header-paginas {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background: white;
+        opacity: 95%;
+    }
+
 }
