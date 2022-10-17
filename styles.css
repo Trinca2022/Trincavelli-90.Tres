@@ -1,5 +1,7 @@
 @charset "UTF-8";
-#enviar-contacto, #navbarNav ul li a {
+
+#enviar-contacto,
+#navbarNav ul li a {
   color: #3A3A3A;
   background-color: #29b972;
   border: 1px solid;
@@ -18,12 +20,14 @@
   margin: 0 !important;
   padding: 0 !important;
 }
+
 .body-container .row-body {
   margin-right: 0;
   margin-left: 0;
   padding-left: 0;
   padding-right: 0;
 }
+
 .body-container .row-body .col-body {
   margin-right: 0;
   margin-left: 0;
@@ -60,16 +64,19 @@ header {
   list-style: none;
   text-decoration: none;
 }
+
 #navbarNav ul li {
   justify-content: space-evenly;
   padding-left: 3px !important;
   /*APLICO EXTEND*/
 }
+
 #navbarNav ul li a {
   text-decoration: none;
   padding: 2px 10px !important;
   white-space: nowrap;
 }
+
 #navbarNav ul li a:hover {
   text-decoration: none;
   color: #29b972;
@@ -80,6 +87,12 @@ header {
   width: 150px;
   height: auto;
   padding: 0 0 0 6px;
+  transition: all 0.5s ease-out;
+}
+
+.logo-superior:hover {
+  width: 160px;
+  height: auto;
 }
 
 @media screen and (max-width: 991px) {
@@ -87,6 +100,7 @@ header {
     margin-top: 2%;
   }
 }
+
 /*MAIN INDEX*/
 .main-inicio {
   display: flex;
@@ -108,7 +122,7 @@ header {
 
 video {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -189,18 +203,18 @@ input {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: 10%;
-     object-position: 10%;
+  object-position: 10%;
 }
 
 .img-derecha {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: 90%;
-     object-position: 90%;
+  object-position: 90%;
 }
 
 .texto {
@@ -264,31 +278,39 @@ iframe {
   font-family: Comspot;
   src: url(./Fuentes/TYPEMATES\ -\ COMSPOT.OTF);
 }
+
 @media screen and (max-width: 768px) {
+
   /*INDEX RESPONSIVE*/
   .logo-medio {
     margin: 25% 0 2% 0;
   }
+
   audio {
     margin-bottom: 25%;
   }
+
   /*IMÁGENES RESPONSIVE*/
   .img1 {
     display: none;
   }
+
   .img2 {
     display: flex;
     height: 150px;
   }
+
   .img-derecha {
     -o-object-position: 100% 0%;
-       object-position: 100% 0%;
+    object-position: 100% 0%;
   }
+
   .img-derecha-contacto {
     -o-object-position: 100% 40%;
-       object-position: 100% 40%;
+    object-position: 100% 40%;
   }
 }
+
 /*FOOTER*/
 .linkfooter a {
   color: #29b972;
@@ -319,7 +341,16 @@ iframe {
   height: auto;
   transition: all 0.5s ease-out;
 }
+
 .logos-redes:hover {
   width: 12%;
   height: auto;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+@media screen and (max-width: 991px) {
+  .logos-redes {
+    width: 4%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
